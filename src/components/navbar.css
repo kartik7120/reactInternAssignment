@@ -60,3 +60,18 @@
   background-color: #fff;
   color: #18a0fb;
 }
+
+@media screen and (max-width: 768px) {
+  .nav_options {
+    display: none;
+  }
+  .nav_container {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nav_btn_container {
+    display: none;
+  }
+}
