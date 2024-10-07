@@ -1,7 +1,7 @@
 .topMiddleContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20;
+  gap: 20px;
   padding: 20px;
 }
 
@@ -53,4 +53,26 @@ h3 > p {
 .topMiddleParentContainer {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topMiddleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
 }
