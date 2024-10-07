@@ -38,3 +38,21 @@ h1 {
   background-color: #fff;
   color: #18a0fb;
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width:320px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}

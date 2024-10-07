@@ -28,3 +28,27 @@
   margin-left: 15em;
   margin-right: 15em;
 }
+
+@media screen and (max-width: 1024px) {
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  .BottomMiddleComponentHeaderContainer h2 {
+    font-size: 2.5rem;
+  }
+  .BottomMiddleComponentHeaderContainer h3 {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card_container {
+    margin: 0 auto;
+  }
+}

@@ -24,3 +24,18 @@
   max-width: 100%;
   max-height: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .card_bottom h4 {
+    font-size: 1.5rem;
+    padding: 0;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .card_bottom h4 {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+}

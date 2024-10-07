@@ -11,8 +11,8 @@
 }
 
 .middleComponentGrid p {
-    font-size: 1.2rem;
-    line-height: 1.5;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 .middleComponentGrid {
@@ -32,4 +32,14 @@
   object-fit: cover;
   max-width: 100%;
   max-height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .middleComponentGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
 }
