@@ -1,9 +1,9 @@
 import "./Footer.css";
 import SampleLogoWhite from "../assets/white_logo.svg";
-import LinkedIn from "../assets/linkedin.svg";
+import LinkedIn from "../assets/linkedIn.svg";
 import Facebook from "../assets/facebook.svg";
 import Twitter from "../assets/twitter.svg";
-import Instagram from "../assets/instagram.svg";
+import Instagram from "../assets/Instagram.svg";
 
 export default function Footer() {
     return (
