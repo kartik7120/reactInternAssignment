@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-size: large;
+}
+
+.container img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 100vh;
+  filter: brightness(0.5);
+}
+
+.headingContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+.join_btn {
+  border-radius: 6px;
+  min-width: 130px;
+  min-height: 40px;
+  background-color: #18a0fb;
+  cursor: pointer;
+}
+
+.join_btn:hover {
+  background-color: #fff;
+  color: #18a0fb;
+}

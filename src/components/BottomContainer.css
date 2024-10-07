@@ -1,0 +1,61 @@
+.BottomContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.BottomContainerHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.BottomContainerHeader h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.BottomContainerHeader p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #000;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+  border: 1px solid #000;
+}
+
+.form_container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form_container {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 50px;
+  padding-top: 20px;
+}
+
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}

@@ -1,0 +1,26 @@
+.card_bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+.card_bottom h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+}
+
+.card_bottom p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.img_container img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: auto;
+}
